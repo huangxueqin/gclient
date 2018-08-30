@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <com.huangxueqin.commontitlebar.GeneralTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:elevation="@dimen/title_bar_elevation"
+        android:background="@color/colorPrimary"
+        app:titleText="最近更新"
+        app:leftIcon="@drawable/ic_hamburg"
+        app:gtbTheme="dark" />
+
+    <com.huangxueqin.gclient.widget.PostStreamView
+        android:id="@+id/news_stream_view"
+        android:layout_marginTop="@dimen/title_bar_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

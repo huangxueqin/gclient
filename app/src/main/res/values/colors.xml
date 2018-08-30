@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="article_list_pressed">#cdcdcd</color>
+
+    <color name="colorPrimary">#4885ed</color>
+    <color name="colorPrimaryDark">#3F51B2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_light">#eeeeee</color>
+
+    <color name="grey0">#E5E0DA</color>
+    <color name="grey1">#ACACAC</color>
+    <color name="grey2">#9A9CA1</color>
+    <color name="grey3">#606062</color>
+    <color name="grey4">#3F3632</color>
+    <color name="grey5">#272728</color>
+
+    <color name="brand_color">#7bb32e</color>
+
+    <color name="shadow_black">#88333333</color>
+
+    <color name="primary_text">#464645</color>
+    <color name="secondary_text">#757575</color>
+
+    <color name="progress_indicator_line">#FFC479</color>
+    <color name="progress_indicator_header">#FFE1BC</color>
+
+    <color name="half_transparent">#A0FFFFFF</color>
+
+    <color name="list_seperator">@color/grey1</color>
+    <color name="list_image_bg">#00000000</color>
+
+    <!-- color for image preview activity -->
+    <color name="midnight_blue">#2c3e50</color>
+</resources>

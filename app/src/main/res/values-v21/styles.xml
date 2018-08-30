@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ToolbarStyle">
+        <item name="android:theme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:popupTheme">@android:style/ThemeOverlay.Material.Light</item>
+        <item name="android:elevation">@dimen/toolbar_elevation</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:elevation">@dimen/toolbar_elevation</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetLeft">0dp</item>
+        <item name="contentInsetRight">0dp</item>
+    </style>
+
+    <style name="ImagePreviewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#00000000</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+</resources>

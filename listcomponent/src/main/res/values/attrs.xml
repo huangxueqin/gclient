@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HQPullRefreshLayout">
+        <attr name="headerViewLayoutId" format="reference" />
+        <attr name="headerViewId" format="reference" />
+        <attr name="refreshOffset" format="dimension" />
+        <attr name="pinHeader" format="boolean" />
+        <attr name="headerPinPosition" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PlainTextHeaderView">
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="spinnerColor" format="color" />
+    </declare-styleable>
+</resources>

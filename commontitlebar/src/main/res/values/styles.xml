@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OptionItem">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OptionItem.Dark">
+        <item name="android:textColor">@color/option_text_dark</item>
+    </style>
+
+    <style name="OptionItem.Light">
+        <item name="android:textColor">@color/option_text_light</item>
+    </style>
+
+    <style name="GeneralTitle">
+    </style>
+    
+    <style name="GeneralTitle.Medium">
+        <item name="titleSize">18sp</item>
+    </style>
+
+    <style name="GeneralTitle.Medium.Light">
+        <item name="titleColor">#333333</item>
+        <item name="backIcon">@drawable/ic_back_arrow_dark_selector</item>
+        <item name="closeIcon">@drawable/ic_close_dark_selector</item>
+        <item name="moreIcon">@drawable/ic_more_dark_selector</item>
+        <item name="separatorColor">#333333</item>
+        <item name="mainOptionTextStyle">@style/OptionItem.Light</item>
+        <item name="subOptionTextStyle">@style/OptionItem.Light</item>
+    </style>
+
+    <style name="GeneralTitle.Medium.Dark">
+        <item name="titleColor">#ffffff</item>
+        <item name="backIcon">@drawable/ic_back_arrow_light_selector</item>
+        <item name="closeIcon">@drawable/ic_close_light_selector</item>
+        <item name="moreIcon">@drawable/ic_more_light_selector</item>
+        <item name="separatorColor">#ffffff</item>
+        <item name="mainOptionTextStyle">@style/OptionItem.Dark</item>
+        <item name="subOptionTextStyle">@style/OptionItem.Dark</item>
+    </style>
+
+
+</resources>

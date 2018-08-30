@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.huangxueqin.commontitlebar.GeneralTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:elevation="@dimen/title_bar_elevation"
+        android:background="@color/colorPrimary"
+        app:gtbTheme="dark"
+        app:showBack="true"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.huangxueqin.gclient.widget.WebProgressIndicator
+            android:visibility="gone"
+            android:id="@+id/progress_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/progress_indicator_height" />
+    </FrameLayout>
+
+</LinearLayout>

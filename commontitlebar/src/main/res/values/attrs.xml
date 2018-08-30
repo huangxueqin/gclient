@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GeneralTitleBar">
+        <attr name="gtbTheme" format="enum">
+            <enum name="dark" value="0" />
+            <enum name="light" value="1" />
+        </attr>
+        <attr name="gtbStyle" format="enum">
+            <enum name="title" value="0" />
+            <enum name="search" value="1" />
+            <enum name="custom" value="20" />
+        </attr>
+        <attr name="showBack" format="boolean" />
+        <attr name="showClose" format="boolean" />
+        <attr name="backIcon" format="reference" />
+        <attr name="moreIcon" format="reference" />
+        <attr name="closeIcon" format="reference" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="showSeparator" format="boolean" />
+        <attr name="separatorColor" format="color" />
+        <attr name="contentLayout" format="reference" />
+        <attr name="titleText" format="string" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="color" />
+        <attr name="titleViewId" format="reference" />
+        <attr name="mainOptionText" format="string" />
+        <attr name="mainOptionTextStyle" format="reference" />
+        <attr name="mainOptionIcon" format="reference" />
+        <attr name="subOptionText" format="string" />
+        <attr name="subOptionTextStyle" format="reference" />
+        <attr name="subOptionIcon" format="reference" />
+    </declare-styleable>
+
+
+</resources>

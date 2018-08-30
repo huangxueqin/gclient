@@ -1,0 +1,5 @@
+icon:
+
+background color: #03a9f4
+foreground color: #ffffff
+font: cookie, fonts.google.com

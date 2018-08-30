@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:stateListAnimator="@drawable/app_bar_layout_elevation">
+
+        <com.huangxueqin.commontitlebar.GeneralTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            app:gtbTheme="dark"
+            app:leftIcon="@drawable/ic_hamburg"
+            app:titleText="@string/tab_reading"
+            app:layout_scrollFlags="scroll|enterAlways|snap"/>
+
+        <com.huangxueqin.slidetablayout.SlideTabLayout
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:tab_title_color="@color/white"
+            app:tab_mode="fit_width"
+            app:tab_indicator_style="line_fill_parent"
+            app:tab_indicator_color="@color/white"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</android.support.design.widget.CoordinatorLayout>

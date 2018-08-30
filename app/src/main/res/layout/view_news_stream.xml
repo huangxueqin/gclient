@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <com.huangxueqin.listcomponent.HQPullRefreshLayout
+        android:id="@+id/pull_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.huangxueqin.listcomponent.header.PlainTextHeaderView
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            app:titleColor="@color/grey3"
+            app:titleSize="14sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.huangxueqin.listcomponent.HQPullRefreshLayout>
+
+    <ViewStub
+        android:id="@+id/stub_empty"
+        android:inflatedId="@+id/empty_view"
+        android:layout="@layout/view_content_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ViewStub
+        android:id="@+id/stub_init_loading"
+        android:inflatedId="@+id/init_loading_view"
+        android:layout="@layout/view_content_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</merge>
